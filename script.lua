@@ -1,4 +1,4 @@
-local OrionLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/shlexware/Orion/main/source.lua"))()
+local OrionLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/shlexware/Orion/main/source"))()
 local Window = OrionLib:MakeWindow({Name = "Xyris Script", Subtitle = "Rivals", HidePremium = false, SaveConfig = true, ConfigFolder = "RafinConfigs"})
 
 local settings = {
