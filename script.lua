@@ -31,7 +31,7 @@ CreditsTab:AddLabel("Made by imrafin")
 CreditsTab:AddButton({Name = "Join our Discord", Callback = function() setclipboard("https://discord.gg/3WtS2F7CaX") OrionLib:MakeNotification({Name = "Notification", Content = "Discord link copied to clipboard!", Time = 5}) end})
 
 local function isInMatch()
-    return checkMatchStatus()
+    return true -- Replace this with your logic to check if in a match
 end
 
 local function aimbot()
