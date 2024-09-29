@@ -1,4 +1,3 @@
-
 local Stats = game:GetService('Stats')
 
 local Players = game:GetService('Players')
@@ -767,3 +766,5 @@ task.spawn(function()
         end)
     end)
 end)
+
+initializate('nurysium_temp')
