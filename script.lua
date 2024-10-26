@@ -52,7 +52,7 @@ local function ScriptLoader()
     rotatingImage.BackgroundTransparency = 1
     rotatingImage.Position = UDim2.new(0.5, -50, 0.5, -50)  -- Centered
     rotatingImage.Size = UDim2.new(0, 100, 0, 100)  -- Adjust size as needed
-    rotatingImage.Image = "rbxassetid://73588754900171"  -- Replace with the actual image asset ID
+    rotatingImage.Image = "rbxassetid://114282177083923"  -- Replace with the actual image asset ID
     
     if syn then syn.protect_gui(loading) end
     
